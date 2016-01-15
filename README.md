@@ -6,7 +6,7 @@
 * 本程序对于组图形式会存在抓取失败的bug,这是由于抓取图片地址是通过正则表达式判断class="original-image"<br>
 * 
 
-### 致谢
+## 致谢
 
 
 * 久远寺千歳的P站排行订阅rss: [http://bangumi.tv/group/topic/23196](http://bangumi.tv/group/topic/23196)
