@@ -6,8 +6,7 @@ import time
 import os
 
 #注意更改cookies
-#cookies='p_ab_id=6; login_ever=yes; PHPSESSID=16861368_6e666349cd5b0a67fe9aa7c4b5929e03; a_type=0; module_orders_mypage=%5B%7B%22name%22%3A%22everyone_new_illusts%22%2C%22visible%22%3Atrue%7D%2C%7B%22name%22%3A%22spotlight%22%2C%22visible%22%3Atrue%7D%2C%7B%22name%22%3A%22featured_tags%22%2C%22visible%22%3Atrue%7D%2C%7B%22name%22%3A%22contests%22%2C%22visible%22%3Atrue%7D%2C%7B%22name%22%3A%22following_new_illusts%22%2C%22visible%22%3Atrue%7D%2C%7B%22name%22%3A%22mypixiv_new_illusts%22%2C%22visible%22%3Atrue%7D%2C%7B%22name%22%3A%22booth_follow_items%22%2C%22visible%22%3Atrue%7D%5D; __utmt=1; __utma=235335808.1631413170.1451127767.1452690064.1452760928.8; __utmb=235335808.8.10.1452760928; __utmc=235335808; __utmz=235335808.1452607076.3.2.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; __utmv=235335808.|2=login%20ever=yes=1^3=plan=normal=1^5=gender=male=1^6=user_id=16861368=1; _ga=GA1.2.1631413170.1451127767'
-cookies=''
+cookies='请更改此处'
 '''
 函数名:findImgUrl
 功能:找到图片地址
@@ -163,7 +162,7 @@ def modeChoose():
     return rssUrl
 
 
-if(cookies==''):
+if(cookies=='请更改此处'):
     print("请更改cookies")
     os._exit()
 rssUrl=modeChoose()
